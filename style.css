@@ -1,0 +1,108 @@
+
+.jumbotron {
+  background-image: url('http://s19.postimg.org/fhnj9io5f/header_bg.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-20px
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;    
+}
+
+.jumbotron .container {
+  position: relative;
+  top:200px;
+  margin: auto;
+  width:60%;
+  text-align: center
+}
+
+.jumbotron h1 {
+  color: #ffe200;
+  font-size: 60px;  
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 5px 10px #000000;
+}
+
+.jumbotron p {
+    color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.vsebina-white {
+    background-color: none;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;  
+    color: black;
+}
+
+.row {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.row h3 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;  
+    color: #ffe200;
+}
+
+.col-md-4 p {
+    text-align: justify;
+}
+
+.vsebina-color {
+    background-color: rgba(255, 226, 0, 0.3);
+    baopacity: 0.3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+
+.faqbox {
+    margin-top: 50px;
+}
+
+faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
